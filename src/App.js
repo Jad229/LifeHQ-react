@@ -1,8 +1,13 @@
-import "./App.css";
 import Overview from "./components/Overview";
 
 function App() {
-  return <Overview />;
+  return (
+    <div>
+      <Overview />
+      <input></input>
+      <button>Add Task</button>
+    </div>
+  );
 }
 
 export default App;
