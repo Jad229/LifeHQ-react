@@ -1,9 +1,8 @@
-import './App.css';
-import logo from './logo.svg';
+import "./App.css";
+import Overview from "./components/Overview";
 
 function App() {
-  return (
-  );
+  return <Overview />;
 }
 
 export default App;
